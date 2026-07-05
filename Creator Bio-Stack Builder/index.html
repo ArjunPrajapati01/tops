@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creator Bio-Stack Builder</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="card">
+
+            <h1>🌐 Creator Bio-Stack</h1>
+            <p>Create your personal link page</p>
+
+            <button id="themeBtn">
+                🌙 Dark Mode
+            </button>
+
+            <form id="linkForm">
+
+                <input
+                    type="text"
+                    id="title"
+                    placeholder="Enter Link Title"
+                    required
+                >
+
+                <input
+                    type="text"
+                    id="url"
+                    placeholder="https://example.com"
+                    required
+                >
+
+                <small id="error"></small>
+
+                <button type="submit" class="addBtn">
+                    Add Link
+                </button>
+
+            </form>
+
+        </div>
+
+        <div class="preview">
+
+            <h2>Profile Preview</h2>
+
+            <div id="linksContainer">
+
+                <!-- Links will appear here -->
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
